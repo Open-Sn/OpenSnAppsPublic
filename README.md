@@ -11,3 +11,5 @@ A short description of each example is given below:
     3D fixed-source problem that models a source in an urban setting
 - [HEU_MET_FAST_003](./HEU_MET_FAST_003/README.md):  
     3D criticality benchmark problem
+- [Six 1-g Spherical Benchmarks](./Six_1g_spherical_benchmarks/README.md):  
+    Six 3D spherical benchmark problems

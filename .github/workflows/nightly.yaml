@@ -30,3 +30,9 @@ jobs:
           cd OpenSn_Logo_CAD && mpirun -np 8 ../opensn/build/python/opensn -i opensn.py && cd ..
           cd Urban_Source && mpirun -np 96 ../opensn/build/python/opensn -i urban_source.py && cd ..
           cd HEU_MET_FAST_003 && mpirun -np 12 ../opensn/build/python/opensn -i HEU_MET_FAST_003.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_1.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_2.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_3.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_4.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_5.py && cd ..
+          cd Six_1g_spherical_benchmarks && mpirun -np 12 ../opensn/build/python/opensn -i Problem_6.py && cd ..
